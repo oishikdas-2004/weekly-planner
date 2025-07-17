@@ -577,24 +577,14 @@
     }
 
     @media (max-width: 768px) {
-  h1 { font-size: 2.5rem; }
-  .container { padding: 15px; }
-  .stats-bar { flex-direction: column; align-items: center; }
-  .controls { flex-direction: column; }
-  th, td { padding: 10px 5px; font-size: 0.8rem; }
-  .modal { width: 95%; padding: 20px; }
-  .clickable { padding: 8px 12px; font-size: 0.8rem; }
-  
-  /* Make Saturday and Sunday columns thinner */
-/* Make Saturday and Sunday columns thinner */
-/* Make Saturday and Sunday columns thinner */
-th:nth-child(7), td:nth-child(7),
-th:nth-child(8), td:nth-child(8) {
-  width: 7%;
-  padding: 5px 1px;
-  font-size: 0.6rem;
-}
-}
+      h1 { font-size: 2.5rem; }
+      .container { padding: 15px; }
+      .stats-bar { flex-direction: column; align-items: center; }
+      .controls { flex-direction: column; }
+      th, td { padding: 10px 5px; font-size: 0.8rem; }
+      .modal { width: 95%; padding: 20px; }
+      .clickable { padding: 8px 12px; font-size: 0.8rem; }
+    }
   </style>
 </head>
 <body>
